@@ -1,5 +1,18 @@
 # How does the birdsAPI works ?
 
+First of all you can include the token authenticator inside the header of the request like this : 
+
+```
+x-access-token: YOUR_TOKEN
+```
+
+if you use this way, you can remove "token" field inside the body parameter !
+
+You can try our API at this link : 
+```
+https://www.samuel-brosse/birdsAPI/
+```
+
 ## Auth 
 | Method  | url | description | Sample JSON request
 | :---:  | :--- | :--- | :---: | 
