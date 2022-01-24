@@ -3,7 +3,7 @@
 ## Auth 
 | Method  | url | description | Sample JSON request
 | :---:  | :--- | :--- | :---: | 
-| POST | /birdsAPI/auth/signup | Sign Up  | [JSON](#Link) |
+| POST | /birdsAPI/auth/signup | Sign Up  | [JSON](## Sign Up -> /birdsAPI/auth/signup) |
 | POST | /birdsAPI/auth/login | Log In  | [JSON](#Link) |
 
 ## Birds
@@ -59,8 +59,8 @@
 | DEL | /birdsAPI/songs/{id} | Delete a song |  |
 | GET | /birdsAPI/songs/ | Get all songs |  |
 
+# JSON Samples
 
+## Sign Up -> /birdsAPI/auth/signup
 
-
-
-
+## Log in -> /birdsAPI/auth/login
