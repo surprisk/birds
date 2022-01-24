@@ -3,8 +3,8 @@
 ## Auth 
 | Method  | url | description | Sample JSON request
 | :---:  | :--- | :--- | :---: | 
-| POST | /birdsAPI/auth/signup | Sign Up  | [JSON](#signup-&-login) |
-| POST | /birdsAPI/auth/login | Log In  | [JSON](#signup-&-login) |
+| POST | /birdsAPI/auth/signup | Sign Up  | [JSON](#signup-and-login) |
+| POST | /birdsAPI/auth/login | Log In  | [JSON](#signup-and-login) |
 
 ## Birds
 | Method  | url | description | Sample JSON request
@@ -14,14 +14,14 @@
 | PUT | /birdsAPI/birds/{id} | Update a bird  | [JSON](#update-a-bird) |
 | DEL | /birdsAPI/birds/{id} | Delete a bird  |  |
 | GET | /birdsAPI/birds/ | Get all birds  |  |
-| GET | /birdsAPI/birds/{id}/species | Add a specie to a bird  | [JSON](#add-&-remove-a-specie-to-a-bird) |
-| GET | /birdsAPI/birds/{id}/species | Remove a specie to a bird  | [JSON](#add-&-remove-a-specie-to-a-bird) |
-| GET | /birdsAPI/birds/{id}/habitats | Add a habitat to a bird  | [JSON](#add-&-remove-an-habitat-to-a-bird) |
-| GET | /birdsAPI/birds/{id}/habitats | Remove a habitat to a bird  | [JSON](#add-&-remove-an-habitat-to-a-bird) |
-| GET | /birdsAPI/birds/{id}/overviews | Add a overview to a bird  | [JSON](#add-&-remove-an-overview-to-a-bird) |
-| GET | /birdsAPI/birds/{id}/overviews | Remove a overview to a bird  | [JSON](#add-&-remove-an-overview-to-a-bird) |
-| GET | /birdsAPI/birds/{id}/songs | Add a song to a bird  | [JSON](#add-&-remove-a-song-to-a-bird) |
-| GET | /birdsAPI/birds/{id}/songs | Remove a song to a bird  | [JSON](#add-&-remove-a-song-to-a-bird) |
+| GET | /birdsAPI/birds/{id}/species | Add a specie to a bird  | [JSON](#add-and-remove-a-specie-to-a-bird) |
+| GET | /birdsAPI/birds/{id}/species | Remove a specie to a bird  | [JSON](#add-and-remove-a-specie-to-a-bird) |
+| GET | /birdsAPI/birds/{id}/habitats | Add a habitat to a bird  | [JSON](#add-and-remove-an-habitat-to-a-bird) |
+| GET | /birdsAPI/birds/{id}/habitats | Remove a habitat to a bird  | [JSON](#add-and-remove-an-habitat-to-a-bird) |
+| GET | /birdsAPI/birds/{id}/overviews | Add a overview to a bird  | [JSON](#add-and-remove-an-overview-to-a-bird) |
+| GET | /birdsAPI/birds/{id}/overviews | Remove a overview to a bird  | [JSON](#add-and-remove-an-overview-to-a-bird) |
+| GET | /birdsAPI/birds/{id}/songs | Add a song to a bird  | [JSON](#add-and-remove-a-song-to-a-bird) |
+| GET | /birdsAPI/birds/{id}/songs | Remove a song to a bird  | [JSON](#add-and-remove-a-song-to-a-bird) |
 
 ## Species
 | Method  | url | description | Sample JSON request
@@ -61,7 +61,7 @@
 
 # JSON Samples
 
-## Signup & Login
+## Signup and Login
 
 ```
 {
@@ -88,7 +88,7 @@
 }
 ```
 
-## Add & Remove a specie to a bird
+## Add and Remove a specie to a bird
 ```
 {
     "specie": id_of_an_existing_specie,
@@ -96,7 +96,7 @@
 }
 ```
 
-## Add & Remove a habitat to a bird
+## Add and Remove a habitat to a bird
 ```
 {
     "habitat": id_of_an_existing_habitat,
@@ -104,7 +104,7 @@
 }
 ```
 
-## Add & Remove a song to a bird
+## Add and Remove a song to a bird
 ```
 {
     "song": id_of_an_existing_song,
@@ -112,7 +112,7 @@
 }
 ```
 
-## Add & Remove an overview to a bird
+## Add and Remove an overview to a bird
 ```
 {
     "overview": id_of_an_existing_overview,
