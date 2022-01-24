@@ -3,7 +3,7 @@
 ## Auth 
 | Method  | url | description | Sample JSON request
 | :---:  | :--- | :--- | :---: | 
-| POST | /birdsAPI/auth/signup | Sign Up  | [JSON](#Sign Up -> /birdsAPI/auth/signup) |
+| POST | /birdsAPI/auth/signup | Sign Up  | [JSON](#signup) |
 | POST | /birdsAPI/auth/login | Log In  | [JSON](#Link) |
 
 ## Birds
@@ -61,6 +61,6 @@
 
 # JSON Samples
 
-## Sign Up -> /birdsAPI/auth/signup
+## Signup
 
 ## Log in -> /birdsAPI/auth/login
