@@ -1,0 +1,24 @@
+{
+  "name": "birds",
+  "version": "1.0.0",
+  "description": "API qui regroupe les espèces d'oiseaux",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "rest"
+  ],
+  "author": "Samuel Brosse",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
