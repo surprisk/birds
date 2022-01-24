@@ -4,14 +4,14 @@
 | Method  | url | description | Sample JSON request
 | :---:  | :--- | :--- | :---: | 
 | POST | /birdsAPI/auth/signup | Sign Up  | [JSON](#signup) |
-| POST | /birdsAPI/auth/login | Log In  | [JSON](#Link) |
+| POST | /birdsAPI/auth/login | Log In  | [JSON](#login) |
 
 ## Birds
 | Method  | url | description | Sample JSON request
 | :---:  | :--- | :--- | :---: | 
-| POST | /birdsAPI/birds/ | Create a bird  | [JSON](#Link) |
+| POST | /birdsAPI/birds/ | Create a bird  | [JSON](#create-a-bird) |
 | GET | /birdsAPI/birds/{id} | Read a bird  |  |
-| PUT | /birdsAPI/birds/{id} | Update a bird  | [JSON](#Link) |
+| PUT | /birdsAPI/birds/{id} | Update a bird  | [JSON](#update-a-bird) |
 | DEL | /birdsAPI/birds/{id} | Delete a bird  |  |
 | GET | /birdsAPI/birds/ | Get all birds  |  |
 | GET | /birdsAPI/birds/{id}/species | Add a specie to a bird  | [JSON](#Link) |
@@ -63,4 +63,38 @@
 
 ## Signup
 
-## Log in -> /birdsAPI/auth/login
+```
+{
+  "username":"username",
+  "password":"Password",
+}
+```
+
+## Login
+
+
+```
+{
+  "username":"username",
+  "password":"Password",
+}
+```
+
+## Create a bird
+```
+{
+    "name": "pica pica",
+    "commonName": "magpie", 
+    "description": "Magpie is a bird which has black, white and metalic blue color",
+    "token": YOUR_CONNECTION_TOKEN
+}
+```
+
+## Update a bird
+```
+{
+    "description": "Magpie is one of the most intelligent birds"
+    "token": YOUR_CONNECTION_TOKEN
+}
+```
+
