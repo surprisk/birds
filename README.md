@@ -36,6 +36,15 @@ https://blandine-derage.fr/birdsAPI/
 | GET | /birdsAPI/birds/{id}/songs | Add a song to a bird  | [JSON](#add-and-remove-a-song-to-a-bird) |
 | GET | /birdsAPI/birds/{id}/songs | Remove a song to a bird  | [JSON](#add-and-remove-a-song-to-a-bird) |
 
+### Identifiants de ressources : 
+```
+4gmiv4mOctZnefKIVxlL
+```
+```
+sBKDThrEvIWFLteeT7OJ
+```
+
+
 ## Species
 | Method  | url | description | Sample JSON request
 | :---:  | :--- | :--- | :---: | 
@@ -44,6 +53,14 @@ https://blandine-derage.fr/birdsAPI/
 | PUT | /birdsAPI/species/{id} | Update a specie | [JSON](#update-a-specie) |
 | DEL | /birdsAPI/species/{id} | Delete a specie |  |
 | GET | /birdsAPI/species/ | Get all species |  |
+
+### Identifiants de ressources : 
+```
+FA3DqeKVLU9MpggRug6Z
+```
+```
+S4BJBVsQ3lNPcS4KF2kx
+```
 
 ## Habitats
 | Method  | url | description | Sample JSON request
@@ -54,6 +71,11 @@ https://blandine-derage.fr/birdsAPI/
 | DEL | /birdsAPI/habitats/{id} | Delete an habitat |  |
 | GET | /birdsAPI/habitats/ | Get all habitats  |  |
 
+### Identifiants de ressources : 
+```
+Tsc39NFT6na8eGkXGyO6
+```
+
 ## Overviews
 | Method  | url | description | Sample JSON request
 | :---:  | :--- | :--- | :---: | 
@@ -63,6 +85,11 @@ https://blandine-derage.fr/birdsAPI/
 | DEL | /birdsAPI/overviews/{id} | Delete an overview |  |
 | GET | /birdsAPI/overviews/ | Get all overviews  |  |
 
+### Identifiants de ressources : 
+```
+y7g4QI9MzeEX0RONXMHn
+```
+
 ## Songs
 | Method  | url | description | Sample JSON request
 | :---:  | :--- | :--- | :---: | 
@@ -71,6 +98,14 @@ https://blandine-derage.fr/birdsAPI/
 | PUT | /birdsAPI/songs/{id} | Update a song | [JSON](#update-a-song) |
 | DEL | /birdsAPI/songs/{id} | Delete a song |  |
 | GET | /birdsAPI/songs/ | Get all songs |  |
+
+### Identifiants de ressources : 
+```
+bM1tHwTozUkEqASda8GD
+```
+```
+O7jl4ouFt9ztwgIAN3ZF
+```
 
 # JSON Samples
 
@@ -177,7 +212,7 @@ https://blandine-derage.fr/birdsAPI/
 {
     "name": "Mapgie overview 1",
     "path": "./uploads/images",
-    "name": "gangOfMagpie",
+    "filename": "gangOfMagpie",
     "extension": "jpg",
     "author": "Patrick",
     "source": "Instagram",
