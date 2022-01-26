@@ -10,7 +10,7 @@ if you use this way, you can remove "token" field inside the body parameter !
 
 You can try our API at this link : 
 ```
-https://blandine-derage.fr/birdsAPI/
+https://birdsapi.samuel-brosse.fr/birdsAPI/
 ```
 
 ## Auth 
